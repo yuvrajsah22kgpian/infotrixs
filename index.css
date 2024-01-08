@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+#submit{
+    background-color: rgb(28, 161, 28);
+    border:solid rgb(4, 40, 4) 5px;
+    cursor:pointer;
+    border-radius: 10px;
+    margin:20px auto;
+    height: 30px;
+    padding:2px;
+    width:100px;
+}
+#temp{
+    color:blue;
+    
+}
+#humidity{
+    color:blue;
+}
