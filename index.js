@@ -3,7 +3,7 @@ async function weatherinfo(q){
     let a=[];
     
     try {
-        let response=await fetch("http://api.weatherapi.com/v1/current.json?key=68aab7ac8c0a435cbf1164929240601&q="+q+"&aqi=no",
+        let response=await fetch("https://api.weatherapi.com/v1/current.json?key=68aab7ac8c0a435cbf1164929240601&q="+q+"&aqi=no",
     {
         method: "GET",
     }) 
